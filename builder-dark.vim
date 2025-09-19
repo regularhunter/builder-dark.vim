@@ -48,12 +48,12 @@ hi Boolean guifg=#edd400
 hi Directory guifg=#73d216
 hi Identifier guifg=#729fcf
 hi Include guifg=#ce5c00
-hi Comment guifg=#0077aa gui=italic
+hi Comment guifg=#0077aa
 hi Constant guifg=#edd400
 hi Error guibg=#ef2929
 hi Function guifg=#ce5c00
 hi Keyword guifg=#0077aa
-hi MatchParen guifg=#eeeeec guibg=#555753 gui=bold
+hi MatchParen guifg=#eeeeec guibg=#555753 cterm=bold
 hi Number guifg=#edd400
 hi Operator guifg=#babdb6
 hi PreProc guifg=#edd400
@@ -61,5 +61,5 @@ hi Special guifg=#ad7fa8
 hi SpecialChar guifg=#dd4a68
 hi Statement guifg=#ad7fa8
 hi String guifg=#669900
-hi Todo guifg=#edd400 guibg=NONE gui=bold
+hi Todo guifg=#edd400 guibg=NONE cterm=bold
 hi Type guifg=#73d216

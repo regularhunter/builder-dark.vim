@@ -11,3 +11,11 @@ choice and the following to be set in your `~/.vimrc` file:
 ```
 set termguicolors
 ```
+
+### Installation
+
+Copy `builder-dark.vim` to `~/.vim/colors/` then add the following to your `~/.vimrc` file:
+
+```
+colorscheme builder-dark
+```

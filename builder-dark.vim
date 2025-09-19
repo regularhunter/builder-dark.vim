@@ -37,6 +37,7 @@ hi PmenuSbar guibg=#babdb6
 hi PmenuThumb guibg=#555753
 hi NonText guifg=#555753
 hi Search guifg=#eeeeec guibg=#dd4a68
+hi SpellBad guifg=#eeeeec guibg=#dd4a68
 hi IncSearch guifg=#eeeeec guibg=#dd4a68
 hi VertSplit guifg=#1e1e1e guibg=#888a85
 hi Visual guifg=NONE guibg=#555753

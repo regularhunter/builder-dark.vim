@@ -46,12 +46,12 @@ hi WildMenu guifg=#1e1e1e guibg=#dd4a68 cterm=bold
 " Syntax
 hi Boolean guifg=#edd400
 hi Directory guifg=#73d216
-hi Identifier guifg=#729fcf
+hi Identifier guifg=#ce5c00
 hi Include guifg=#ce5c00
 hi Comment guifg=#0077aa
 hi Constant guifg=#edd400
 hi Error guibg=#ef2929
-hi Function guifg=#ce5c00
+hi Function guifg=#729fcf
 hi Keyword guifg=#0077aa
 hi MatchParen guifg=#eeeeec guibg=#555753 cterm=bold
 hi Number guifg=#edd400

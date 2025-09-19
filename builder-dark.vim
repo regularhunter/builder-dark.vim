@@ -26,13 +26,13 @@ set background=dark
 
 " Editor
 hi Normal guifg=#babdb6 guibg=#1e1e1e
-hi CursorLine guibg=#303030 gui=bold term=none cterm=none
+hi CursorLine guibg=#303030 gui=bold cterm=none
 hi LineNr guifg=#555753 guibg=#1e1e1e
-hi CursorLineNr guifg=#babdb6 guibg=#303030 term=none cterm=none
+hi CursorLineNr guifg=#babdb6 guibg=#303030 cterm=none
 hi TabLine guifg=#c1c3bb guibg=#555753
 hi TabLineFill guibg=#888a85
 hi Pmenu guifg=#eeeeec guibg=#ad7fa8
-hi PmenuSel guifg=#eeeeec guibg=#dd4a68 term=bold cterm=bold
+hi PmenuSel guifg=#eeeeec guibg=#dd4a68 cterm=bold
 hi PmenuSbar guibg=#babdb6
 hi PmenuThumb guibg=#555753
 hi NonText guifg=#555753
@@ -41,7 +41,7 @@ hi SpellBad guifg=#eeeeec guibg=#ef2929
 hi IncSearch guifg=#eeeeec guibg=#dd4a68
 hi VertSplit guifg=#1e1e1e guibg=#888a85
 hi Visual guifg=NONE guibg=#555753
-hi WildMenu guifg=#1e1e1e guibg=#dd4a68 term=bold cterm=bold
+hi WildMenu guifg=#1e1e1e guibg=#dd4a68 cterm=bold
 
 " Syntax
 hi Boolean guifg=#edd400

@@ -1,4 +1,4 @@
-![Screenshot](img/builder-dark.png)
+![C](img/example-c.png)
 
 # builder-dark.vim
 
@@ -20,3 +20,7 @@ Copy `builder-dark.vim` to `~/.vim/colors/` then add the following to your `~/.v
 ```
 colorscheme builder-dark
 ```
+
+![.vimrc](img/example-vimrc.png)
+
+![Rust](img/example-rust.png)

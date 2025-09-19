@@ -29,8 +29,8 @@ hi Normal guifg=#babdb6 guibg=#1e1e1e
 hi CursorLine guibg=#303030 gui=bold cterm=none
 hi LineNr guifg=#555753 guibg=#1e1e1e
 hi CursorLineNr guifg=#babdb6 guibg=#303030 cterm=none
-hi TabLine guifg=#c1c3bb guibg=#555753
-hi TabLineFill guibg=#888a85
+hi TabLine guifg=#1e1e1e guibg=#d3d7cf
+hi TabLineFill guifg=#d3d7cf
 hi Pmenu guifg=#eeeeec guibg=#ad7fa8
 hi PmenuSel guifg=#eeeeec guibg=#dd4a68 cterm=bold
 hi PmenuSbar guibg=#babdb6

@@ -26,6 +26,7 @@ set background=dark
 
 " Editor
 hi Normal guifg=#babdb6 guibg=#1e1e1e
+hi ErrorMsg guifg=#eeeeec guibg=#ef2929
 hi CursorLine guibg=#303030 gui=bold cterm=none
 hi LineNr guifg=#555753 guibg=#1e1e1e
 hi CursorLineNr guifg=#babdb6 guibg=#303030 cterm=none
@@ -39,9 +40,11 @@ hi NonText guifg=#555753
 hi Search guifg=#eeeeec guibg=#dd4a68
 hi CurSearch guifg=#dd4a68 guibg=#eeeeec
 hi SpellBad guifg=#eeeeec guibg=#ad7fa8
+hi SpellLocal guifg=#eeeeec guibg=#729fcf
 hi IncSearch guifg=#eeeeec guibg=#dd4a68
 hi VertSplit guifg=#1e1e1e guibg=#888a85
 hi Visual guifg=NONE guibg=#555753
+hi WarningMsg guifg=#edd400 guibg=NONE
 hi WildMenu guifg=#1e1e1e guibg=#dd4a68 cterm=bold
 
 " Syntax

@@ -27,7 +27,7 @@ set background=dark
 " Editor
 hi Normal guifg=#babdb6 guibg=#1e1e1e
 hi ErrorMsg guifg=#eeeeec guibg=#ef2929
-hi CursorLine guibg=#303030 gui=bold cterm=none
+hi CursorLine guibg=#303030 cterm=none
 hi LineNr guifg=#555753 guibg=#1e1e1e
 hi CursorLineNr guifg=#babdb6 guibg=#303030 cterm=none
 hi CursorColumn guifg=#1e1e1e guibg=#888a85 cterm=bold

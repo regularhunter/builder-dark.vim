@@ -44,7 +44,7 @@ hi CurSearch guifg=#dd4a68 guibg=#eeeeec
 hi SpellBad guifg=#eeeeec guibg=#ad7fa8
 hi SpellLocal guifg=#eeeeec guibg=#729fcf
 hi IncSearch guifg=#eeeeec guibg=#dd4a68
-hi StatusLine guifg=#303030 guibg=#d3d7cf
+hi StatusLine guifg=#303030 guibg=#babdb6
 hi StatusLineNC guifg=#303030 guibg=#888a85
 hi VertSplit guifg=#1e1e1e guibg=#888a85
 hi Visual guifg=NONE guibg=#555753

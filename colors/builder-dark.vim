@@ -27,13 +27,15 @@ set background=dark
 " Editor
 hi Normal guifg=#babdb6 guibg=#1e1e1e
 hi ErrorMsg guifg=#eeeeec guibg=#ef2929
+hi DiffAdd guifg=#73d216
+hi DiffChange guifg=#eeeeec
+hi DiffDelete guifg=#ef2929
+hi FoldColumn guifg=#eeeeec guibg=#1e1e1e
 hi CursorLine guibg=#303030 cterm=none
 hi LineNr guifg=#555753 guibg=#1e1e1e
 hi CursorLineNr guifg=#babdb6 guibg=#303030 cterm=none
 hi CursorColumn guifg=#1e1e1e guibg=#888a85 cterm=bold
-hi DiffAdd guifg=#73d216
-hi DiffChange guifg=#eeeeec
-hi DiffDelete guifg=#ef2929
+hi CursorLineSign guibg=#1e1e1e
 hi TabLine guifg=#888a85 guibg=#303030
 hi TabLineFill guifg=#303030
 hi TabLineSel guifg=#d3d7cf

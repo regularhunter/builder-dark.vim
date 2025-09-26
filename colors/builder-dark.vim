@@ -80,8 +80,8 @@ hi SpellRare guifg=aluminum1 guibg=pink1
 hi IncSearch guifg=aluminum1 guibg=pink1
 hi StatusLine guifg=highlight guibg=aluminum3
 hi StatusLineNC guifg=highlight guibg=aluminum4
-hi StatusLineTerm guifg=highlight guibg=aluminum3
-hi StatusLineTermNC guifg=highlight guibg=aluminum4
+hi StatusLineTerm guifg=aluminum3 guibg=highlight
+hi StatusLineTermNC guifg=aluminum4 guibg=highlight
 hi TabLine guifg=aluminum4 guibg=highlight
 hi TabLineFill guifg=highlight
 hi TabLineSel guifg=aluminum2

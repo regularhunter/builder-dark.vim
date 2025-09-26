@@ -31,15 +31,12 @@ hi DiffAdd guifg=#73d216
 hi DiffChange guifg=#eeeeec
 hi DiffDelete guifg=#ef2929
 hi FoldColumn guifg=#eeeeec guibg=#1e1e1e
-hi CursorLine guibg=#303030 cterm=none
-hi LineNr guifg=#555753 guibg=#1e1e1e
-hi CursorLineNr guifg=#babdb6 guibg=#303030 cterm=none
 hi CursorColumn guifg=#1e1e1e guibg=#888a85 cterm=bold
-hi CursorLineFold guibg=#303030
-hi CursorLineSign guibg=#303030
-hi TabLine guifg=#888a85 guibg=#303030
-hi TabLineFill guifg=#303030
-hi TabLineSel guifg=#d3d7cf
+hi CursorLine guibg=#303030 cterm=none
+hi CursorLineNr guifg=#babdb6 guibg=#303030 cterm=none
+hi CursorLineFold guibg=#303030 cterm=none
+hi CursorLineSign guibg=#303030 cterm=none
+hi LineNr guifg=#555753 guibg=#1e1e1e
 hi Pmenu guifg=#eeeeec guibg=#ad7fa8
 hi PmenuSel guifg=#eeeeec guibg=#dd4a68 cterm=bold
 hi PmenuSbar guibg=#babdb6
@@ -53,6 +50,9 @@ hi SpellLocal guifg=#eeeeec guibg=#729fcf
 hi IncSearch guifg=#eeeeec guibg=#dd4a68
 hi StatusLine guifg=#303030 guibg=#babdb6
 hi StatusLineNC guifg=#303030 guibg=#888a85
+hi TabLine guifg=#888a85 guibg=#303030
+hi TabLineFill guifg=#303030
+hi TabLineSel guifg=#d3d7cf
 hi VertSplit guifg=#1e1e1e guibg=#888a85
 hi Visual guifg=NONE guibg=#555753
 hi WarningMsg guifg=#edd400 guibg=NONE

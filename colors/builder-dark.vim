@@ -45,9 +45,9 @@ let v:colornames["skyblue"]="#729fcf"
 " Editor
 hi Normal guifg=aluminum3 guibg=dark1
 hi Added guifg=chameleon
-hi DiffAdd guifg=chameleon
-hi DiffChange guifg=aluminum1
-hi DiffDelete guifg=scarletred
+hi DiffAdd guifg=chameleon guibg=dark1
+hi DiffChange guifg=aluminum1 guibg=dark1
+hi DiffDelete guifg=scarletred guibg=dark1
 hi DiffText guifg=aluminum1 guibg=scarletred
 hi Changed guifg=aluminum1
 hi ColorColumn guifg=aluminum1 guibg=pink1

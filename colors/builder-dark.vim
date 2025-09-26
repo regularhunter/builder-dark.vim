@@ -41,6 +41,7 @@ hi PmenuThumb guibg=#555753
 hi NonText guifg=#555753
 hi Search guifg=#eeeeec guibg=#dd4a68
 hi CurSearch guifg=#dd4a68 guibg=#eeeeec
+hi SignColumn guifg=#eeeeec guibg=#1e1e1e
 hi SpellBad guifg=#eeeeec guibg=#ad7fa8
 hi SpellLocal guifg=#eeeeec guibg=#729fcf
 hi IncSearch guifg=#eeeeec guibg=#dd4a68

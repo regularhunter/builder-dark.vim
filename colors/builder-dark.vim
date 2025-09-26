@@ -44,9 +44,14 @@ let v:colornames["skyblue"]="#729fcf"
 
 " Editor
 hi Normal guifg=aluminum3 guibg=dark1
+hi Added guifg=chameleon
 hi DiffAdd guifg=chameleon
 hi DiffChange guifg=aluminum1
 hi DiffDelete guifg=scarletred
+hi DiffText guifg=aluminum1 guibg=scarletred
+hi Changed guifg=aluminum1
+hi ColorColumn guifg=aluminum1 guibg=pink1
+hi Conceal guifg=aluminum4 guibg=aluminum5
 hi CursorColumn guifg=dark1 guibg=aluminum4 cterm=bold
 hi CursorLine guibg=highlight cterm=none
 hi CursorLineNr guifg=aluminum3 guibg=highlight cterm=none
@@ -54,28 +59,40 @@ hi CursorLineFold guibg=highlight cterm=none
 hi CursorLineSign guibg=highlight cterm=none
 hi ErrorMsg guifg=aluminum1 guibg=scarletred
 hi FoldColumn guifg=aluminum1 guibg=dark1
+hi Folded guifg=aluminum1 guibg=dark1
 hi LineNr guifg=aluminum5 guibg=dark1
+hi MoreMsg guifg=aluminum1
+hi NonText guifg=aluminum5
 hi Pmenu guifg=aluminum1 guibg=plum
 hi PmenuSel guifg=aluminum1 guibg=pink1 cterm=bold
 hi PmenuSbar guibg=aluminum3
 hi PmenuThumb guibg=aluminum5
-hi NonText guifg=aluminum5
+hi Question guifg=aluminum1
+hi Removed guifg=scarletred
 hi Search guifg=aluminum1 guibg=pink1
 hi CurSearch guifg=pink1 guibg=aluminum1
 hi SignColumn guifg=aluminum1 guibg=dark1
+hi SpecialKey guifg=aluminum5
 hi SpellBad guifg=aluminum1 guibg=plum
+hi SpellCap guifg=aluminum1 guibg=skyblue
 hi SpellLocal guifg=aluminum1 guibg=skyblue
+hi SpellRare guifg=aluminum1 guibg=pink1
 hi IncSearch guifg=aluminum1 guibg=pink1
 hi StatusLine guifg=highlight guibg=aluminum3
 hi StatusLineNC guifg=highlight guibg=aluminum4
+hi StatusLineTerm guifg=highlight guibg=aluminum3
+hi StatusLineTermNC guifg=highlight guibg=aluminum4
 hi TabLine guifg=aluminum4 guibg=highlight
 hi TabLineFill guifg=highlight
 hi TabLineSel guifg=aluminum2
 hi Title guifg=aluminum1
+hi ToolbarLine guifg=aluminum5 guibg=aluminum1
+hi ToolbarButton guifg=aluminum1 guibg=aluminum5
 hi VertSplit guifg=dark1 guibg=aluminum4
 hi Visual guifg=NONE guibg=aluminum5
 hi WarningMsg guifg=butter guibg=NONE
 hi WildMenu guifg=dark1 guibg=pink1 cterm=bold
+hi Underlined guifg=blue1
 
 " Syntax
 hi Boolean guifg=butter

@@ -39,9 +39,9 @@ let v:colornames["green1"]="#669900"
 let v:colornames["highlight"]="#303030"
 let v:colornames["orange1"]="#ce5c00"
 let v:colornames["pink1"]="#dd4a68"
-let v:colornames["plum"]="#ad7fa8"
+let v:colornames["plum1"]="#ad7fa8"
 let v:colornames["scarletred"]="#ef2929"
-let v:colornames["skyblue"]="#729fcf"
+let v:colornames["skyblue1"]="#729fcf"
 
 " Editor
 hi Normal guifg=aluminum3 guibg=dark1
@@ -64,7 +64,7 @@ hi Folded guifg=aluminum1 guibg=dark1
 hi LineNr guifg=aluminum5 guibg=dark1
 hi MoreMsg guifg=aluminum1 cterm=bold
 hi NonText guifg=aluminum5
-hi Pmenu guifg=aluminum1 guibg=plum
+hi Pmenu guifg=aluminum1 guibg=plum1
 hi PmenuSel guifg=aluminum1 guibg=pink1 cterm=bold
 hi PmenuSbar guibg=aluminum3
 hi PmenuThumb guibg=aluminum5
@@ -74,9 +74,9 @@ hi Search guifg=aluminum1 guibg=pink1
 hi CurSearch guifg=pink1 guibg=aluminum1
 hi SignColumn guifg=aluminum1 guibg=dark1
 hi SpecialKey guifg=aluminum5
-hi SpellBad guifg=aluminum1 guibg=plum
+hi SpellBad guifg=aluminum1 guibg=plum1
 hi SpellCap guifg=aluminum1 guibg=chocolate
-hi SpellLocal guifg=aluminum1 guibg=skyblue
+hi SpellLocal guifg=aluminum1 guibg=skyblue1
 hi SpellRare guifg=pink1 guibg=NONE
 hi IncSearch guifg=aluminum1 guibg=pink1
 hi StatusLine guifg=highlight guibg=aluminum3
@@ -101,7 +101,7 @@ hi Directory guifg=chameleon
 hi Comment guifg=blue1
 hi Constant guifg=butter
 hi Error guibg=scarletred
-hi Function guifg=skyblue
+hi Function guifg=skyblue1
 hi Identifier guifg=orange1
 hi Include guifg=orange1
 hi Keyword guifg=blue1
@@ -109,9 +109,9 @@ hi MatchParen guifg=aluminum1 guibg=aluminum5 cterm=bold
 hi Number guifg=butter
 hi Operator guifg=aluminum3
 hi PreProc guifg=butter
-hi Special guifg=plum
+hi Special guifg=plum1
 hi SpecialChar guifg=pink1
-hi Statement guifg=plum
+hi Statement guifg=plum1
 hi String guifg=green1
 hi Todo guifg=butter guibg=NONE cterm=bold
 hi Type guifg=chameleon

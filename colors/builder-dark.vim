@@ -33,6 +33,7 @@ let v:colornames["aluminum5"]="#555753"
 let v:colornames["blue1"]="#0077aa"
 let v:colornames["butter"]="#edd400"
 let v:colornames["chameleon"]="#73d216"
+let v:colornames["chocolate"]="#c17d11"
 let v:colornames["dark1"]="#1e1e1e"
 let v:colornames["green1"]="#669900"
 let v:colornames["highlight"]="#303030"
@@ -45,9 +46,9 @@ let v:colornames["skyblue"]="#729fcf"
 " Editor
 hi Normal guifg=aluminum3 guibg=dark1
 hi Added guifg=chameleon
-hi DiffAdd guifg=chameleon guibg=dark1
-hi DiffChange guifg=aluminum1 guibg=dark1
-hi DiffDelete guifg=scarletred guibg=dark1
+hi DiffAdd guifg=chameleon guibg=NONE
+hi DiffChange guifg=aluminum1 guibg=NONE
+hi DiffDelete guifg=scarletred guibg=NONE
 hi DiffText guifg=aluminum1 guibg=scarletred
 hi Changed guifg=aluminum1
 hi ColorColumn guifg=aluminum1 guibg=pink1
@@ -74,9 +75,9 @@ hi CurSearch guifg=pink1 guibg=aluminum1
 hi SignColumn guifg=aluminum1 guibg=dark1
 hi SpecialKey guifg=aluminum5
 hi SpellBad guifg=aluminum1 guibg=plum
-hi SpellCap guifg=aluminum1 guibg=skyblue
+hi SpellCap guifg=aluminum1 guibg=chocolate
 hi SpellLocal guifg=aluminum1 guibg=skyblue
-hi SpellRare guifg=aluminum1 guibg=pink1
+hi SpellRare guifg=pink1 guibg=NONE
 hi IncSearch guifg=aluminum1 guibg=pink1
 hi StatusLine guifg=highlight guibg=aluminum3
 hi StatusLineNC guifg=highlight guibg=aluminum4

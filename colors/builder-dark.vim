@@ -61,13 +61,13 @@ hi ErrorMsg guifg=aluminum1 guibg=scarletred
 hi FoldColumn guifg=aluminum1 guibg=dark1
 hi Folded guifg=aluminum1 guibg=dark1
 hi LineNr guifg=aluminum5 guibg=dark1
-hi MoreMsg guifg=aluminum1
+hi MoreMsg guifg=aluminum1 cterm=bold
 hi NonText guifg=aluminum5
 hi Pmenu guifg=aluminum1 guibg=plum
 hi PmenuSel guifg=aluminum1 guibg=pink1 cterm=bold
 hi PmenuSbar guibg=aluminum3
 hi PmenuThumb guibg=aluminum5
-hi Question guifg=aluminum1
+hi Question guifg=aluminum1 cterm=bold
 hi Removed guifg=scarletred
 hi Search guifg=aluminum1 guibg=pink1
 hi CurSearch guifg=pink1 guibg=aluminum1

@@ -35,7 +35,8 @@ hi CursorLine guibg=#303030 cterm=none
 hi LineNr guifg=#555753 guibg=#1e1e1e
 hi CursorLineNr guifg=#babdb6 guibg=#303030 cterm=none
 hi CursorColumn guifg=#1e1e1e guibg=#888a85 cterm=bold
-hi CursorLineSign guibg=#1e1e1e
+hi CursorLineFold guibg=#303030
+hi CursorLineSign guibg=#303030
 hi TabLine guifg=#888a85 guibg=#303030
 hi TabLineFill guifg=#303030
 hi TabLineSel guifg=#d3d7cf

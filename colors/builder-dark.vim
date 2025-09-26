@@ -21,60 +21,79 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "builder-dark"
+let g:colors_name="builder-dark"
 set background=dark
 
+" Colors
+let v:colornames["aluminum1"]="#eeeeec"
+let v:colornames["aluminum2"]="#d3d7cf"
+let v:colornames["aluminum3"]="#babdb6"
+let v:colornames["aluminum4"]="#888a85"
+let v:colornames["aluminum5"]="#555753"
+let v:colornames["blue1"]="#0077aa"
+let v:colornames["butter"]="#edd400"
+let v:colornames["chameleon"]="#73d216"
+let v:colornames["dark1"]="#1e1e1e"
+let v:colornames["green1"]="#669900"
+let v:colornames["highlight"]="#303030"
+let v:colornames["orange1"]="#ce5c00"
+let v:colornames["pink1"]="#dd4a68"
+let v:colornames["plum"]="#ad7fa8"
+let v:colornames["scarletred"]="#ef2929"
+let v:colornames["skyblue"]="#729fcf"
+
 " Editor
-hi Normal guifg=#babdb6 guibg=#1e1e1e
-hi ErrorMsg guifg=#eeeeec guibg=#ef2929
-hi DiffAdd guifg=#73d216
-hi DiffChange guifg=#eeeeec
-hi DiffDelete guifg=#ef2929
-hi FoldColumn guifg=#eeeeec guibg=#1e1e1e
-hi CursorColumn guifg=#1e1e1e guibg=#888a85 cterm=bold
-hi CursorLine guibg=#303030 cterm=none
-hi CursorLineNr guifg=#babdb6 guibg=#303030 cterm=none
-hi CursorLineFold guibg=#303030 cterm=none
-hi CursorLineSign guibg=#303030 cterm=none
-hi LineNr guifg=#555753 guibg=#1e1e1e
-hi Pmenu guifg=#eeeeec guibg=#ad7fa8
-hi PmenuSel guifg=#eeeeec guibg=#dd4a68 cterm=bold
-hi PmenuSbar guibg=#babdb6
-hi PmenuThumb guibg=#555753
-hi NonText guifg=#555753
-hi Search guifg=#eeeeec guibg=#dd4a68
-hi CurSearch guifg=#dd4a68 guibg=#eeeeec
-hi SignColumn guifg=#eeeeec guibg=#1e1e1e
-hi SpellBad guifg=#eeeeec guibg=#ad7fa8
-hi SpellLocal guifg=#eeeeec guibg=#729fcf
-hi IncSearch guifg=#eeeeec guibg=#dd4a68
-hi StatusLine guifg=#303030 guibg=#babdb6
-hi StatusLineNC guifg=#303030 guibg=#888a85
-hi TabLine guifg=#888a85 guibg=#303030
-hi TabLineFill guifg=#303030
-hi TabLineSel guifg=#d3d7cf
-hi VertSplit guifg=#1e1e1e guibg=#888a85
-hi Visual guifg=NONE guibg=#555753
-hi WarningMsg guifg=#edd400 guibg=NONE
-hi WildMenu guifg=#1e1e1e guibg=#dd4a68 cterm=bold
+hi Normal guifg=aluminum3 guibg=dark1
+hi DiffAdd guifg=chameleon
+hi DiffChange guifg=aluminum1
+hi DiffDelete guifg=scarletred
+hi CursorColumn guifg=dark1 guibg=aluminum4 cterm=bold
+hi CursorLine guibg=highlight cterm=none
+hi CursorLineNr guifg=aluminum3 guibg=highlight cterm=none
+hi CursorLineFold guibg=highlight cterm=none
+hi CursorLineSign guibg=highlight cterm=none
+hi ErrorMsg guifg=aluminum1 guibg=scarletred
+hi FoldColumn guifg=aluminum1 guibg=dark1
+hi LineNr guifg=aluminum5 guibg=dark1
+hi Pmenu guifg=aluminum1 guibg=plum
+hi PmenuSel guifg=aluminum1 guibg=pink1 cterm=bold
+hi PmenuSbar guibg=aluminum3
+hi PmenuThumb guibg=aluminum5
+hi NonText guifg=aluminum5
+hi Search guifg=aluminum1 guibg=pink1
+hi CurSearch guifg=pink1 guibg=aluminum1
+hi SignColumn guifg=aluminum1 guibg=dark1
+hi SpellBad guifg=aluminum1 guibg=plum
+hi SpellLocal guifg=aluminum1 guibg=skyblue
+hi IncSearch guifg=aluminum1 guibg=pink1
+hi StatusLine guifg=highlight guibg=aluminum3
+hi StatusLineNC guifg=highlight guibg=aluminum4
+hi TabLine guifg=aluminum4 guibg=highlight
+hi TabLineFill guifg=highlight
+hi TabLineSel guifg=aluminum2
+hi Title guifg=aluminum1
+hi VertSplit guifg=dark1 guibg=aluminum4
+hi Visual guifg=NONE guibg=aluminum5
+hi WarningMsg guifg=butter guibg=NONE
+hi WildMenu guifg=dark1 guibg=pink1 cterm=bold
 
 " Syntax
-hi Boolean guifg=#edd400
-hi Directory guifg=#73d216
-hi Identifier guifg=#ce5c00
-hi Include guifg=#ce5c00
-hi Comment guifg=#0077aa
-hi Constant guifg=#edd400
-hi Error guibg=#ef2929
-hi Function guifg=#729fcf
-hi Keyword guifg=#0077aa
-hi MatchParen guifg=#eeeeec guibg=#555753 cterm=bold
-hi Number guifg=#edd400
-hi Operator guifg=#babdb6
-hi PreProc guifg=#edd400
-hi Special guifg=#ad7fa8
-hi SpecialChar guifg=#dd4a68
-hi Statement guifg=#ad7fa8
-hi String guifg=#669900
-hi Todo guifg=#edd400 guibg=NONE cterm=bold
-hi Type guifg=#73d216
+hi Boolean guifg=butter
+hi Directory guifg=chameleon
+hi Comment guifg=blue1
+hi Constant guifg=butter
+hi Error guibg=scarletred
+hi Function guifg=skyblue
+hi Identifier guifg=orange1
+hi Include guifg=orange1
+hi Keyword guifg=blue1
+hi MatchParen guifg=aluminum1 guibg=aluminum5 cterm=bold
+hi Number guifg=butter
+hi Operator guifg=aluminum3
+hi PreProc guifg=butter
+hi Special guifg=plum
+hi SpecialChar guifg=pink1
+hi Statement guifg=plum
+hi String guifg=green1
+hi Todo guifg=butter guibg=NONE cterm=bold
+hi Type guifg=chameleon

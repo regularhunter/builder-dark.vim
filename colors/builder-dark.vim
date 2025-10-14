@@ -105,7 +105,7 @@ hi Function guifg=skyblue1
 hi Identifier guifg=orange1
 hi Include guifg=orange1
 hi Keyword guifg=blue1
-hi MatchParen guifg=aluminum1 guibg=aluminum5 cterm=bold
+hi MatchParen guifg=chocolate guibg=NONE cterm=bold
 hi Number guifg=butter
 hi Operator guifg=aluminum3
 hi PreProc guifg=butter

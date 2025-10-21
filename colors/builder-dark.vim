@@ -102,7 +102,7 @@ hi Comment guifg=blue1
 hi Constant guifg=butter
 hi Error guibg=scarletred
 hi Function guifg=skyblue1
-hi Identifier guifg=orange1
+hi Identifier guifg=aluminum3
 hi Include guifg=orange1
 hi Keyword guifg=blue1
 hi MatchParen guifg=chocolate guibg=NONE cterm=bold

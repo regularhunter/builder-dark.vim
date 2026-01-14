@@ -1,4 +1,4 @@
-" builder-dark.vim 1.3
+" builder-dark.vim 1.4
 "
 " Copyright (C) 2007 GtkSourceView team
 " Author: Paolo Borelli <pborelli@gnome.org>
@@ -57,7 +57,7 @@ hi ColorColumn guifg=aluminum1 guibg=pink1
 hi Conceal guifg=aluminum4 guibg=aluminum5
 hi CursorColumn guifg=dark1 guibg=aluminum4 cterm=bold
 hi CursorLine guibg=highlight cterm=none
-hi CursorLineNr guifg=aluminum3 guibg=highlight cterm=none
+hi CursorLineNr guifg=aluminum5 guibg=highlight cterm=bold
 hi CursorLineFold guibg=highlight cterm=none
 hi CursorLineSign guibg=highlight cterm=none
 hi ErrorMsg guifg=aluminum1 guibg=scarletred

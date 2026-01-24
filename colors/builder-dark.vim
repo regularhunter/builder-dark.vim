@@ -1,4 +1,4 @@
-" builder-dark.vim 1.4
+" builder-dark.vim 1.5
 "
 " Copyright (C) 2007 GtkSourceView team
 " Author: Paolo Borelli <pborelli@gnome.org>
@@ -17,6 +17,7 @@
 " License along with this library; if not, write to the Free Software
 " Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
+set background=dark
 hi clear
 
 if exists("syntax_on")
@@ -24,7 +25,6 @@ if exists("syntax_on")
 endif
 
 let g:colors_name="builder-dark"
-set background=dark
 
 " Colors
 let v:colornames["aluminum1"]="#eeeeec"

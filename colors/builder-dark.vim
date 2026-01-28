@@ -26,6 +26,12 @@ endif
 
 let g:colors_name="builder-dark"
 
+if (has("termguicolors"))
+  set termguicolors
+else
+  finish
+endif
+
 " Colors
 let v:colornames["aluminum1"]="#eeeeec"
 let v:colornames["aluminum2"]="#d3d7cf"

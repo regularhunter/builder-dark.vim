@@ -24,7 +24,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name="builder-dark"
+let g:colors_name="builder-dark-cold"
 
 if (has("termguicolors"))
   set termguicolors
@@ -42,7 +42,7 @@ let v:colornames["blue1"]="#0077aa"
 let v:colornames["butter"]="#edd400"
 let v:colornames["chameleon"]="#73d216"
 let v:colornames["chocolate"]="#c17d11"
-let v:colornames["dark1"]="#1e1e1e"
+let v:colornames["dark1"]="#1c1c1f"
 let v:colornames["green1"]="#669900"
 let v:colornames["highlight"]="#303030"
 let v:colornames["orange1"]="#ce5c00"

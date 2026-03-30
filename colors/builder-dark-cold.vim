@@ -1,4 +1,4 @@
-" builder-dark.vim 1.5
+" builder-dark.vim 1.6
 "
 " Copyright (C) 2007 GtkSourceView team
 " Author: Paolo Borelli <pborelli@gnome.org>
